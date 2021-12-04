@@ -1,0 +1,109 @@
+body{
+	font-family: PT Sans ,sans-serif;
+	background-color:#0E0F10  ;
+	margin: 0;
+	color: #fff;
+	line-height: 1.6;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+#div1{
+	margin: 0;
+	padding: 0;
+	background:url(file:///C:/Users/Akshay/Desktop/HTML%20CSS%20Projects/image.jpg.jpg) no-repeat center/cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+#div1 .container{
+	margin: 25vh;
+}
+#div1 h1{
+	font-size: 4rem;
+	margin-bottom: 0;
+	color: #004287;
+	text-align: left;
+
+
+}
+#div1 h2{
+	text-align: left;
+}
+nav{
+	height: 40px;
+	width: 100%;
+	background-color:#232323 ;
+	color: black;
+	position: fixed;
+	border-bottom: #004287 solid 2px;
+
+
+}
+#div1 p{
+	text-align: left;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	float: left;
+}
+nav a{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0;
+	color: white;
+
+}
+nav li:hover{
+	background-color:#004287  ;
+}
+.container{
+	max-width: 1180px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 3rem;
+}
+footer .footer-cols{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns:repeat(4, 1fr) ;
+	padding: 2rem;
+	text-align: left;
+	font-size: 12px;
+
+}
+footer .footer-cols ul{
+	list-style: none;
+}
+footer .footer-cols ul li:first-child{
+	font-size: 1.2rem;
+	padding-bottom: 0.5rem;
+	border-bottom: #004287 solid 2px;
+	margin-bottom: 1rem;
+}
+footer .footer-bottom{
+	background-color:#004287 ;
+	padding: 0.5rem;
+	text-align: center;
+	font-size: 10px;
+}
+.section-main{
+	border-style: solid;
+	border-color:#004287 ;
+	border-width: 2px;
+	border-radius: 25px;
+	padding: 2rem;
+}
+footer{
+	border-top: #004287 solid 2px;
+}
+
+
